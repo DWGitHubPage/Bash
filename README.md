@@ -1,6 +1,6 @@
 # Bash
 
-:rocket: :stars: :computer:
+:rocket: :stars: :wrench: :computer: :clipboard:
 
 # Cheatsheet
 https://devhints.io/bash
@@ -65,7 +65,7 @@ alias google='ping 8.8.8.8'
 
 # Googling from command line
 
-[All about it from itsfoss](https://itsfoss.com/review-googler-linux/)
+[It's Foss shows you how to set it up!](https://itsfoss.com/review-googler-linux/)
 
 
 googler (whatever you want to search)
