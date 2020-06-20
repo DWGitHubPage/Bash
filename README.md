@@ -1,5 +1,7 @@
 # Bash
 
+:rocket: :stars: :computer:
+
 # Cheatsheet
 https://devhints.io/bash
 
@@ -68,15 +70,15 @@ https://itsfoss.com/review-googler-linux/
 
 googler (whatever you want to search)
 
-# To google certain things in the news:
+## To google certain things in the news:
 
 googler -N (whatever you want to search)
 
-# To use google with a certain website:
+## *To use google with a certain website:*
 
 googler -w reddit.com (whatever you want to search)
 
-# To find available commands just type:
+### To find available commands just type:
 
 ?
 
