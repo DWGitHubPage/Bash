@@ -65,16 +65,16 @@ alias google='ping 8.8.8.8'
 
 # Googling from command line
 
-https://itsfoss.com/review-googler-linux/
+[All about it from itsfoss](https://itsfoss.com/review-googler-linux/)
 
 
 googler (whatever you want to search)
 
-## To google certain things in the news:
+### To google certain things in the news:
 
 googler -N (whatever you want to search)
 
-## *To use google with a certain website:*
+### *To use google with a certain website:*
 
 googler -w reddit.com (whatever you want to search)
 
