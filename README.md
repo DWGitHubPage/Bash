@@ -2,6 +2,12 @@
 
 :rocket: :stars: :wrench: :computer: :clipboard:
 
+# [Bash 5.0 Reference Manual](https://www.gnu.org/software/bash/manual/bash.pdf)
+
+
+# [BashGuide](http://mywiki.wooledge.org/BashGuide)
+
+
 # Cheatsheet
 https://devhints.io/bash
 
