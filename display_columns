@@ -1,0 +1,18 @@
+# Easy way to display things.
+# A big thank you to [Chris James at dev.to for this.](https://dev.to/quii/fun-with-bash-4h56)
+
+
+# An example would be a file called names with the below information.
+
+name, age, height
+Dan Fallow, 34, 5'9"
+Mark Wilson, 33, 6'1"
+Shelly Durant, 42, 5'8"
+Michelle Benchley, 36, 4'11"
+Mark Wright, 57, 5'5"
+Janelle Monáe, 34, 5'0"
+
+
+# On the command line just enter:
+
+column -s, -t < names
