@@ -4,6 +4,7 @@
 
 # [Bash 5.0 Reference Manual](https://www.gnu.org/software/bash/manual/bash.pdf)
 
+# [Bash Command Reference](https://courses.cs.washington.edu/courses/cse390a/14au/bash.html)
 
 # [BashGuide](http://mywiki.wooledge.org/BashGuide)
 
