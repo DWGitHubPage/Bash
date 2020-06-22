@@ -1,0 +1,11 @@
+# How to create a simple calculator in shell.
+
+sum() {
+echo "$1 + $2 = $(($1 + $2))"
+}
+
+# Then add numbers like this:
+
+sum 6 12
+
+# To subtract, multiply, or divide replace the + symbol with -, *, or %.
