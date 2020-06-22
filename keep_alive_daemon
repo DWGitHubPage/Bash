@@ -1,0 +1,5 @@
+# Infinite loop so terminal doesn't auto log off.
+
+while :;do :;done
+
+# Control C to end it and continue using terminal.
