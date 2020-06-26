@@ -15,6 +15,10 @@ https://devhints.io/bash
 # Cron Cheatsheet
 https://devhints.io/cron
 
+# The shebang to put at the top of Bash scripts
+
+#!/usr/bin/env bash
+
 # Key Bindings
 
 # Moving the Cursor
