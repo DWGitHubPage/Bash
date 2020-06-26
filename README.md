@@ -19,6 +19,30 @@ https://devhints.io/cron
 
 #!/usr/bin/env bash
 
+# Three ways to turn on Bash's debug mode
+
+bash -x ./name_of_bash_script
+
+## Modify the script header
+
+#!/bin/bash -x
+[.. script ..]
+
+## Or
+
+#!/usr/bin/env bash
+set -x
+
+## Or add somewhere in your code
+
+#!/usr/bin/env bash
+[..irrelevant code..]
+set -x
+[..relevant code..]
+set +x
+[..irrelevant code..]
+
+
 # Key Bindings
 
 # Moving the Cursor
