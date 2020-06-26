@@ -50,20 +50,20 @@ set +x
 
 # Key Bindings
 
-# Moving the Cursor
+## Moving the Cursor
 
 CTRL+A = Move cursor to beginning of line.
 CTRL+E = Move cursor to end of line.
 ALT+F = Move forward a word.
 ALT+B = Move back a word.
 
-# Editing Text
+## Editing Text
 
 CTRL+L = Clear the screen (will not erase current command).
 ALT+U = Capitalize word after cursor.
 ALT+L = Lower the case of the word after the cursor.
 
-# Process Control
+## Process Control
 
 CTRL+C = Interrupt currently running process.
 CTRL+S = Stop output to screen.
