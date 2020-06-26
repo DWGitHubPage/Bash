@@ -37,9 +37,11 @@ set -x
 
 #!/usr/bin/env bash
 [..irrelevant code..]
+
 set -x
 
 [..relevant code..]
+
 set +x
 
 [..irrelevant code..]
