@@ -28,18 +28,20 @@ bash -x ./name_of_bash_script
 #!/bin/bash -x
 [.. script ..]
 
-## Or
+### Or
 
 #!/usr/bin/env bash
 set -x
 
-## Or add somewhere in your code
+### Or add somewhere in your code
 
 #!/usr/bin/env bash
 [..irrelevant code..]
 set -x
+
 [..relevant code..]
 set +x
+
 [..irrelevant code..]
 
 
