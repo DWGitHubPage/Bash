@@ -36,12 +36,11 @@ set -x
 ### Or add somewhere in your code
 
 #!/usr/bin/env bash
-[..irrelevant code..]
 
+[..irrelevant code..]
 set -x
 
 [..relevant code..]
-
 set +x
 
 [..irrelevant code..]
