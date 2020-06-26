@@ -48,6 +48,11 @@ set +x
 [..irrelevant code..]
 
 
+## To do code stepping while debugging, put this where you want to start the stepping. 
+
+trap '(read -p "[$BASH_SOURCE:$LINENO] $BASH_COMMAND?")' DEBUG
+
+
 # Key Bindings
 
 ## Moving the Cursor
