@@ -19,6 +19,19 @@ https://devhints.io/cron
 
 #!/usr/bin/env bash
 
+## To run previous commands 
+
+thor ~ $ !andthefirstfewlettersofapreviouscommand
+
+## How to search through bash history
+
+ctrl-r
+
+## And this will come up and start typing what you're looking for.
+
+(reverse-i-search)`’: 
+
+
 # Three ways to turn on Bash's debug mode
 
 bash -x ./name_of_bash_script
