@@ -27,7 +27,7 @@ thor ~ $ !andthefirstfewlettersofapreviouscommand
 
 ctrl-r
 
-## And this will come up and start typing what you're looking for.
+## Below is what will come up and then you would type what you're looking for.
 
 (reverse-i-search)`’: 
 
@@ -135,6 +135,27 @@ cd -
 # Another way to go back to a directory after navigating away from it
 
 popd
+
+# Quickly check the contents of a file
+
+cat nameofwhateverfile
+
+# If it's a big file and you don't want the whole thing printing out
+
+less nameofwhateverfile
+
+# Open a file
+
+open nameofwhateverfile
+
+# Two ways to create an empty file
+
+touch nameofwhatevernewfile
+
+## Or
+
+echo > nameofwhatevernewfile
+
 
 # Repeat Last Command
 
