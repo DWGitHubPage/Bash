@@ -132,6 +132,10 @@ bind -p
 
 cd -
 
+# Go to a directory or subdirectory and creating a stack
+
+pushd nameofdirectoryorsubdirectory
+
 # Another way to go back to a directory after navigating away from it
 
 popd
