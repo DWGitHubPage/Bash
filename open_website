@@ -1,0 +1,13 @@
+# Open a website multiple ways.
+
+# In macOS.
+
+open https://dailytechnewsshow.com
+
+# In Windows.
+
+start https://news.ycombinator.com
+
+# With Python.
+
+python -m webbrowser https://techcrunch.com
