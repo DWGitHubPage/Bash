@@ -213,4 +213,8 @@ googler -w reddit.com (whatever you want to search)
 
 ?
 
+# Cowsay
+
+cowsay whatever you want the text to be
+
 
