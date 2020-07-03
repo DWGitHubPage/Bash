@@ -213,6 +213,14 @@ googler -w reddit.com (whatever you want to search)
 
 ?
 
+# How to switch between shells
+
+exec nameofshell
+
+# To chsnge the default shell
+
+chsh -s /bin/nameofshell
+
 # Cowsay
 
 cowsay whatever you want the text to be
