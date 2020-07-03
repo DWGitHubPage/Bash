@@ -217,6 +217,12 @@ googler -w reddit.com (whatever you want to search)
 
 exec nameofshell
 
+## Or
+
+exec nameofshell --login
+
+exec nameofshell -l
+
 # To chsnge the default shell
 
 chsh -s /bin/nameofshell
