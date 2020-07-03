@@ -215,15 +215,19 @@ googler -w reddit.com (whatever you want to search)
 
 # How to switch between shells
 
-exec nameofshell
+justputnameofshell and enter
 
 ## Or
+
+exec nameofshell
+
+## Another way
 
 exec nameofshell --login
 
 exec nameofshell -l
 
-# To chsnge the default shell
+# To change the default shell
 
 chsh -s /bin/nameofshell
 
