@@ -231,6 +231,19 @@ exec nameofshell -l
 
 chsh -s /bin/nameofshell
 
+# Macbook software update
+
+softwareupdate -l
+
+## A specific update in the list
+
+softwareupdate -i nameofit
+
+## Or
+
+softwareupdate --install nameofit
+
+
 # Cowsay
 
 cowsay whatever you want the text to be
