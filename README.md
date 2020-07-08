@@ -12,8 +12,14 @@
 # Cheatsheet
 https://devhints.io/bash
 
+
+# Netcat Cheatsheet
+https://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf
+
+
 # Cron Cheatsheet
 https://devhints.io/cron
+
 
 # The shebang to put at the top of Bash scripts
 
