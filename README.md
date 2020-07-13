@@ -25,6 +25,17 @@ https://devhints.io/cron
 
 #!/usr/bin/env bash
 
+# When you need to kill a process such as running Python code with flask and using a port number.
+
+## Run this to find the process number:
+
+sudo lsof -i:5000
+
+## Then:
+
+kill whateverthenumberis
+
+
 ## To run previous commands 
 
 thor ~ $ !andthefirstfewlettersofapreviouscommand
