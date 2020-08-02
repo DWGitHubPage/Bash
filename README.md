@@ -2,28 +2,29 @@
 
 :rocket: :stars: :wrench: :computer: :clipboard:
 
-# [Bash 5.0 Reference Manual](https://www.gnu.org/software/bash/manual/bash.pdf)
+## [Bash 5.0 Reference Manual](https://www.gnu.org/software/bash/manual/bash.pdf)
 
-# [Bash Command Reference](https://courses.cs.washington.edu/courses/cse390a/14au/bash.html)
+## [Bash Command Reference](https://courses.cs.washington.edu/courses/cse390a/14au/bash.html)
 
-# [BashGuide](http://mywiki.wooledge.org/BashGuide)
+## [BashGuide](http://mywiki.wooledge.org/BashGuide)
 
 
-# Cheatsheet
+## Cheatsheet
 https://devhints.io/bash
 
 
-# Netcat Cheatsheet
+## Netcat Cheatsheet
 https://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf
 
 
-# Cron Cheatsheet
+## Cron Cheatsheet
 https://devhints.io/cron
 
 
-# The shebang to put at the top of Bash scripts
+## The shebang to put at the top of Bash scripts
 
 #!/usr/bin/env bash
+
 
 # When you need to kill a process such as running Python code with flask and using a port number.
 
@@ -49,7 +50,7 @@ ctrl-r
 (reverse-i-search)`’: 
 
 
-# Three ways to turn on Bash's debug mode
+## Three ways to turn on Bash's debug mode
 
 bash -x ./name_of_bash_script
 
@@ -83,7 +84,7 @@ set +x
 trap '(read -p "[$BASH_SOURCE:$LINENO] $BASH_COMMAND?")' DEBUG
 
 
-# Key Bindings
+## Key Bindings
 
 ## Moving the Cursor
 
@@ -106,11 +107,11 @@ CTRL+Q = Resume output to screen.
 CTRL+Z = Suspend current process, use "fg" to return to it.
 
 
-# List of Bash keyboard shortcuts
+## List of Bash keyboard shortcuts
 
 bind -p
 
-# Some common keyboard shortcuts
+## Some common keyboard shortcuts
 
  ctrl + _ (undo)
  
@@ -145,31 +146,44 @@ bind -p
  ctrl + l (clears screen)s
  
 
-# Go back to previous directory
+## Go back to previous directory
 
 cd -
 
-# Go to a directory or subdirectory and creating a stack
+## Using cd with other directory types: 
+
+. (current directory). This is the directory you are currently in.
+.. (parent directory). Takes you to the directory above your current.
+~ (home directory). This directory defaults to your “home directory”. Such as /home/pete.
+- (previous directory). This will take you to the previous directory you were just at.
+
+
+## Go to a directory or subdirectory and creating a stack
 
 pushd nameofdirectoryorsubdirectory
 
-# Another way to go back to a directory after navigating away from it
+
+## Another way to go back to a directory after navigating away from it
 
 popd
 
-# Quickly check the contents of a file
+
+## Quickly check the contents of a file
 
 cat nameofwhateverfile
 
-# If it's a big file and you don't want the whole thing printing out
+
+## If it's a big file and you don't want the whole thing printing out
 
 less nameofwhateverfile
 
-# Open a file
+
+## Open a file
 
 open nameofwhateverfile
 
-# Two ways to create an empty file
+
+## Two ways to create an empty file
 
 touch nameofwhatevernewfile
 
@@ -178,31 +192,35 @@ touch nameofwhatevernewfile
 echo > nameofwhatevernewfile
 
 
-# Repeat Last Command
+## Repeat Last Command
 
 !!
 
-# Repeat Last Command That Started With a Specific String
+
+## Repeat Last Command That Started With a Specific String
 
 !(followed by whatever command)
 ex. !echo
 
-# Two Ways to Reuse Argument From Last Command
+
+## Two Ways to Reuse Argument From Last Command
 
 (whatever argument)!$
 ex. echo!$
 
-Or
+## Or
 
 !!:1
 
-# Reuse Last Command With a New Argument
+
+## Reuse Last Command With a New Argument
 
 !!:0
 
 !!:0 new_argument
 
-# Command Aliases to Create Your Own Shortcuts
+
+## Command Aliases to Create Your Own Shortcuts
 
 Will print hello world whenever I type world.
 
@@ -211,7 +229,8 @@ alias world='echo "hello world"'
 To ping Google using the word google.
 alias google='ping 8.8.8.8'
 
-# Googling from command line
+
+## Googling from command line
 
 [It's Foss shows you how to set it up!](https://itsfoss.com/review-googler-linux/)
 
@@ -230,7 +249,8 @@ googler -w reddit.com (whatever you want to search)
 
 ?
 
-# How to switch between shells
+
+## How to switch between shells
 
 justputnameofshell and enter
 
@@ -244,13 +264,16 @@ exec nameofshell --login
 
 exec nameofshell -l
 
-# To change the default shell
+
+## To change the default shell
 
 chsh -s /bin/nameofshell
 
-# Macbook software update
+
+## Macbook software update
 
 softwareupdate -l
+
 
 ## A specific update in the list
 
@@ -261,7 +284,7 @@ softwareupdate -i nameofit
 softwareupdate --install nameofit
 
 
-# Cowsay
+## Cowsay
 
 cowsay whatever you want the text to be
 
