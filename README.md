@@ -2,6 +2,10 @@
 
 :rocket: :stars: :wrench: :computer: :clipboard:
 
+
+## [ShellCheck: Shell Script Analysis Tool](https://www.shellcheck.net)
+
+
 ## [Bash 5.0 Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
 
 ## [Bash Command Reference](https://courses.cs.washington.edu/courses/cse390a/14au/bash.html)
