@@ -49,6 +49,7 @@ traceroute google.com
 
 
 
+
 ## To run previous commands 
 
 thor ~ $ !andthefirstfewlettersofapreviouscommand
