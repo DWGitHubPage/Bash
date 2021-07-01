@@ -44,7 +44,9 @@ kill whateverthenumberis
 # Traceroute
 
 traceroute (name of website)
+
 traceroute google.com
+
 
 
 ## To run previous commands 
