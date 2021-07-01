@@ -41,6 +41,12 @@ sudo lsof -i:5000
 kill whateverthenumberis
 
 
+# Traceroute
+
+traceroute (name of website)
+traceroute google.com
+
+
 ## To run previous commands 
 
 thor ~ $ !andthefirstfewlettersofapreviouscommand
