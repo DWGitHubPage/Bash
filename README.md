@@ -298,10 +298,3 @@ softwareupdate -i nameofit
 ## Or
 
 softwareupdate --install nameofit
-
-
-## Cowsay
-
-cowsay whatever you want the text to be
-
-
