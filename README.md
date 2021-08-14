@@ -1,5 +1,9 @@
 # Bash
 
+## To make a file an executable so it can run from CL by just adding ./ at the beginning of file instead 
+## of going to the directory and then typing python3 at the beginning of it if it's a python file:
+chmod +x nameoffile
+
 :rocket: :stars: :wrench: :computer: :clipboard:
 
 
