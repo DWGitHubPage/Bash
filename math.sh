@@ -1,7 +1,6 @@
 # Math in Bash.
 # expr is known as the all-purpose expression evaluator.
 # For a list of all the arithmetic operators go to https://www.shell-tips.com/bash/math-arithmetic-calculation/
- echo -e '\e]8;;https://www.shell-tips.com/bash/math-arithmetic-calculation/\aThis is a hyperlink\e]8;;\a' 
 
 # How to do simple math on CL.
 
