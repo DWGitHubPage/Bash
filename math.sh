@@ -1,6 +1,6 @@
 # Math in Bash.
 # expr is known as the all-purpose expression evaluator.
-# For a list of all the arithmetic operators go to [ddddd](https://www.shell-tips.com/bash/math-arithmetic-calculation/)
+# For a list of all the arithmetic operators go to https://www.shell-tips.com/bash/math-arithmetic-calculation/
 
 # How to do simple math on CL.
 
