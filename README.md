@@ -1,9 +1,5 @@
 # Bash
 
-## To make a file an executable so it can run from CL by just adding ./ at the beginning of file instead 
-## of going to the directory and then typing python3 at the beginning of it if it's a python file:
-chmod +x nameoffile
-
 :rocket: :stars: :wrench: :computer: :clipboard:
 
 
@@ -28,6 +24,10 @@ https://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf
 ## Cron Cheatsheet
 https://devhints.io/cron
 
+## To make a file an executable so it can run from CL by just adding ./ at the beginning of file instead of going to the directory & then typing python3 at the beginning of it if it's a python file:
+
+chmod +x nameoffile
+
 
 ## The shebang to put at the top of Bash scripts
 
@@ -50,8 +50,6 @@ kill whateverthenumberis
 traceroute (name of website)
 
 traceroute google.com
-
-
 
 
 ## To run previous commands 
