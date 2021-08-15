@@ -28,6 +28,18 @@ https://devhints.io/cron
 
 chmod +x nameoffile
 
+## To know which shell you are currently in:
+
+printf "My current shell - %s\n" "$SHELL"
+
+## To change to Powershel:
+
+pwsh
+
+## To change to Bash
+
+bash
+
 
 ## The shebang to put at the top of Bash scripts
 
