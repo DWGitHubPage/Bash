@@ -32,14 +32,6 @@ chmod +x nameoffile
 
 printf "My current shell - %s\n" "$SHELL"
 
-## To change to Powershel:
-
-pwsh
-
-## To change to Bash
-
-bash
-
 
 ## The shebang to put at the top of Bash scripts
 
