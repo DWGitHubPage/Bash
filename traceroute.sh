@@ -14,3 +14,5 @@ traceroute -q 1 google.com # Changing the number of packets/queries to 1 instead
 traceroute -f 10 google.com # If you want to skip hops. 
 
 traceroute -F google.com # To not fragment the packet if it's too big for a network hop's MTU (Maximum Transition Unit).
+
+traceroute6 google.com # Uses the IPv6 protocol hop	limit field to elicit an ICMPv6 TIME-EXCEEDED response from each gateway along the path.
