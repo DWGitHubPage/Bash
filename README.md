@@ -1,7 +1,5 @@
 # Bash
 
-:rocket: :stars: :wrench: :computer: :clipboard:
-
 
 ## [ShellCheck: Shell Script Analysis Tool](https://www.shellcheck.net)
 
